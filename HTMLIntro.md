@@ -19,3 +19,5 @@
 ## HTML 標題
 
 TML headings are defined with the `<h1>` to `<h6>` tags.
+
+[谷哥](/www.google.com "谷哥")
