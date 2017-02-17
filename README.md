@@ -1,3 +1,92 @@
-# My Awesome Book
+# 網頁使用者介面設計 (Web User Interface Design)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+# 基本資料
+ 項目 | 描述 
+:-------:| --- 
+ 課程編號 | CSX1001 
+  學分數  | 1學分 
+ 課程類型 | 網路課程 
+ 考核老師 | 陳琨 (kchen [at] csie.org)
+課程助教 | 夏維良 (r05922075 [at] ntu.edu.tw) <br> 林修平 (twedusuck [at] gmail.com) <br> 陳宣毅 (r03126005 [at] ntu.edu.tw)
+
+---
+
+# 課程介紹
+
+HTML(Hyper Text Markup Language) 是一種標記語言(markup language)，簡單說就是一個記錄圖片或文字要怎麼顯示的語言。而CSS(Cascading Style Sheets)是一種用來為HTML添加各種樣式的語法。
+
+本課程將從最基本的 HTML 與 CSS語法開始教起，讓學生能俱有開發網頁設計的能力。
+
+---
+
+# 加選規則
+
+* 採線上報名
+* 報名網址：[台大CS+X線上報名系統](https://csx.aca.ntu.edu.tw/course)
+* 報名考試成功後等同加簽本課程成立
+* 報名規則以報名系統上的規定為準
+
+---
+
+# 考核時間
+
+梯次 | 班次 | 日期 | 時間 | 地點
+:--:|:----:|:----:|:----:|:---:
+第一梯 | 01班 | 4/01 (週六) | 13:00-14:30 |計中 116 教室
+第二梯 | 02班 | 5/13 (週六) | 13:00-14:30 |計中 116 教室
+第三梯 | 03班 | 6/24 (週六) | 13:00-14:30 |計中 116 教室
+
+
+---
+
+# 考核規則
+
+1. 採上機實作考核，應考人須依題目要求，以滑鼠及鍵盤操作填答應試
+2. 試題由考核老師出題，並且於當天現場公布
+3. 不接受補考、不接受退選、不接受更改考評時間
+4. 依考評時間計入當學期成績
+5. <font color="red">若未參與現場評量者(缺考者)，成績將評定為「F」</font>
+
+---
+
+# 考題類型
+
+* 除錯題：根據題目的要求，找出錯誤並修正，使其網頁能正常顯示
+* 填空題：將會給一份不完整的程式碼，再依照題目所指示的要求，補齊正確的程式碼
+* 創意題：根據題目要求，全新設計一個新的網頁 (考核老師具有主觀的審美評分)
+
+---
+
+# 測試場地設備規格
+
+* 作業系統
+  * Windows 7
+* 編輯軟體
+  1. Visual Studio Code ([官網](https://code.visualstudio.com/))
+  2. 記事本
+
+---
+
+# 評分標準
+
+1. 師生互動 (10%)
+  * 線上臉書社團、電子信件或線下課輔活動等相關互動
+2. 上機考核 (90%)
+  * <font color="red">若未參與現場評量者(缺考者)，成績將評定為「F」</font>
+
+---
+
+# 考核範圍及教材
+
+* [W3CSchool HTML5 線上教材](http://www.w3schools.com/html/)
+* [W3CSchool CSS 線上教材](http://www.w3schools.com/css/default.asp)
+* [HiSKIO HTML 線上影片](https://hiskio.com/course/48)
+* [HiSKIO CSS 線上影片](https://hiskio.com/course/40)
+
+----
+
+# 關於線上影片
+
+* 加選確定後且無退選者，即可免費觀看所有付費章節
+* 線上影片是由 **有點意思科技** 的網頁前端工程師 **林柏佋** 所提供
