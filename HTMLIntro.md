@@ -18,11 +18,4 @@
 
 ## HTML 標題
 
-<font color=red>HTML</font> headings are defined with the `<h1>` to `<h6>` tags.
-
-[谷哥](/www.google.com "test")
-```java
-int test(){
-return 0;
-}
-```
+HTML headings are defined with the `<h1>` to `<h6>` tags.
