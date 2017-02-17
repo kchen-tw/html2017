@@ -18,4 +18,4 @@
 
 ## HTML Headings
 
-TML headings are defined with the <h1> to <h6> tags.
+TML headings are defined with the `<h1>` to `<h6>` tags.
