@@ -18,6 +18,11 @@
 
 ## HTML 標題
 
-TML headings are defined with the `<h1>` to `<h6>` tags.
+<font color=red>HTML</font> headings are defined with the `<h1>` to `<h6>` tags.
 
 [谷哥](/www.google.com "test")
+```java
+int test(){
+return 0;
+}
+```
