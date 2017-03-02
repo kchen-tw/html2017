@@ -1,10 +1,6 @@
 \#網頁運作原理
 
-
-
-![](/assets/browser-773215_1280.png)
-
-
+![](/assets/網頁運作原理.jpg)
 
 [圖片來源：pixpapy](https://pixabay.com/p-773215/?no_redirect)
 
