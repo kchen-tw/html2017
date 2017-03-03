@@ -18,11 +18,13 @@
 ## HTML 標題
 
 HTML 標題（Heading）是通過 &lt;h1&gt; ~ &lt;h6&gt; 等標籤進行定義的。  
-`<h1>This is a heading</h1>`
+```html
+<h1>This is a heading</h1>
 
-`<h2>This is a heading</h2>`
+<h2>This is a heading</h2>
 
-`<h3>This is a heading</h3>`
+<h3>This is a heading</h3>
+```
 
 ## HTML 段落
 
@@ -44,8 +46,10 @@ HTML 圖像是通過 &lt;img&gt; 標籤進行定義的。
 &lt;hr /&gt; 標籤在 HTML 頁面中創建水平線。  
 hr 元素可用於分隔內容。
 
-`<p>This is a paragraph</p>  
-<hr />`
+```html
+<p>This is a paragraph</p>
+<hr />
+```
 ## HTML 樣式實例 - 背景顏色
 background-color 屬性為元素定義了背景顏色：
 ```html
@@ -84,9 +88,11 @@ text-align 屬性規定了元素中文本的水平對齊方式：
 ## HTML 注釋標籤
 您能夠通過如下語法向 HTML 源代碼添加註釋：
 `<!-- 在此處寫注釋 -->`
-```<!--
+```html
+<!--
 可一次注釋多行
--->```
+-->
+```
 ## HTML圖像標籤（img）和源屬性（Src）
 在 HTML 中，圖像由 `<img>` 標籤定義。
 `<img>` 是空標籤，意思是說，它只包含屬性，並且沒有閉合標籤。
