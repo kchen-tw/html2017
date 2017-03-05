@@ -1,69 +1,39 @@
-無序列表  
-無序列表是一個項目的列表，此列項目使用粗體圓點（典型的小黑圓圈）進行標記。 無序列表始於 &lt;ul&gt; 標籤。每個列表項始於 &lt;li&gt;。
+### 無序列表
+無序列表是一個項目的列表，此列項目使用粗體圓點（典型的小黑圓圈）進行標記。 無序列表始於 `<ul>` 標籤。每個列表項始於 `<li>`。
+```html
+<ul> <li>Coffee</li> <li>Milk</li> </ul>
+```
+<ul> <li>Coffee</li> <li>Milk</li> </ul>
 
-&lt;ul&gt;  
-&lt;li&gt;Coffee&lt;/li&gt;  
-&lt;li&gt;Milk&lt;/li&gt;  
-&lt;/ul&gt;  
-有序列表  
-同樣，有序列表也是一列項目，列表項目使用數字進行標記。 有序列表始於 &lt;ol&gt; 標籤。每個列表項始於 &lt;li&gt; 標籤。
+### 有序列表
+同樣，有序列表也是一列項目，列表項目使用數字進行標記。 有序列表始於 `<ol>` 標籤。每個列表項始於 `<li>` 標籤。
+```html
+<ol> <li>Coffee</li> <li>Milk</li> </ol>
+```
+<ol> <li>Coffee</li> <li>Milk</li> </ol>
 
-&lt;ol&gt;  
-&lt;li&gt;Coffee&lt;/li&gt;  
-&lt;li&gt;Milk&lt;/li&gt;  
-&lt;/ol&gt;  
-定義列表  
-自定義列表不僅僅是一列項目，而是項目及其注釋的組合。 自定義列表以 &lt;dl&gt; 標籤開始。每個自定義列表項以 &lt;dt&gt; 開始。每個自定義列表項的定義以 &lt;dd&gt; 開始。
-
-&lt;dl&gt;  
-&lt;dt&gt;Coffee&lt;/dt&gt;  
-&lt;dd&gt;Black hot drink&lt;/dd&gt;  
-&lt;dt&gt;Milk&lt;/dt&gt;  
-&lt;dd&gt;White cold drink&lt;/dd&gt;  
-&lt;/dl&gt;  
+### 定義列表
+自定義列表不僅僅是一列項目，而是項目及其注釋的組合。 自定義列表以 `<dl>` 標籤開始。每個自定義列表項以 `<dt>` 開始。每個自定義列表項的定義以 `<dd>` 開始。
+```html
+<dl> <dt>Coffee</dt> <dd>Black hot drink</dd> <dt>Milk</dt> <dd>White cold drink</dd> </dl>
+```
+<dl>
+ <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+ <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
 列表項內部可以使用段落、換行符、圖片、鏈接以及其他列表等等。
 
-使用不同類型的列表
+### 使用不同類型的列表
+```html
+<h4>數字列表：</h4> <ol> <li>蘋果</li> <li>香蕉</li> <li>檸檬</li> <li>桔子</li> </ol>
 
-&lt;h4&gt;數字列表：&lt;/h4&gt;  
-&lt;ol&gt;  
- &lt;li&gt;蘋果&lt;/li&gt;  
- &lt;li&gt;香蕉&lt;/li&gt;  
- &lt;li&gt;檸檬&lt;/li&gt;  
- &lt;li&gt;桔子&lt;/li&gt;  
-&lt;/ol&gt;    
-  
-&lt;h4&gt;字母列表：&lt;/h4&gt;  
-&lt;ol type="A"&gt;  
- &lt;li&gt;蘋果&lt;/li&gt;  
- &lt;li&gt;香蕉&lt;/li&gt;  
- &lt;li&gt;檸檬&lt;/li&gt;  
- &lt;li&gt;桔子&lt;/li&gt;  
-&lt;/ol&gt;    
-  
-&lt;h4&gt;小寫字母列表：&lt;/h4&gt;  
-&lt;ol type="a"&gt;  
- &lt;li&gt;蘋果&lt;/li&gt;  
- &lt;li&gt;香蕉&lt;/li&gt;  
- &lt;li&gt;檸檬&lt;/li&gt;  
- &lt;li&gt;桔子&lt;/li&gt;  
-&lt;/ol&gt;    
-  
-&lt;h4&gt;羅馬字母列表：&lt;/h4&gt;  
-&lt;ol type="I"&gt;  
- &lt;li&gt;蘋果&lt;/li&gt;  
- &lt;li&gt;香蕉&lt;/li&gt;  
- &lt;li&gt;檸檬&lt;/li&gt;  
- &lt;li&gt;桔子&lt;/li&gt;  
-&lt;/ol&gt;    
-  
-&lt;h4&gt;小寫羅馬字母列表：&lt;/h4&gt;  
-&lt;ol type="i"&gt;  
- &lt;li&gt;蘋果&lt;/li&gt;  
- &lt;li&gt;香蕉&lt;/li&gt;  
- &lt;li&gt;檸檬&lt;/li&gt;  
- &lt;li&gt;桔子&lt;/li&gt;  
-&lt;/ol&gt;  
+<h4>字母列表：</h4> <ol type="A"> <li>蘋果</li> <li>香蕉</li> <li>檸檬</li> <li>桔子</li> </ol>
 
+<h4>小寫字母列表：</h4> <ol type="a"> <li>蘋果</li> <li>香蕉</li> <li>檸檬</li> <li>桔子</li> </ol>
 
+<h4>羅馬字母列表：</h4> <ol type="I"> <li>蘋果</li> <li>香蕉</li> <li>檸檬</li> <li>桔子</li> </ol>
 
+<h4>小寫羅馬字母列表：</h4> <ol type="i"> <li>蘋果</li> <li>香蕉</li> <li>檸檬</li> <li>桔子</li> </ol>
+```

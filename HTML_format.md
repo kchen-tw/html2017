@@ -1,10 +1,11 @@
-文本格式化標籤  
-&lt;b&gt;粗體&lt;/b&gt;  
-&lt;i&gt;斜體&lt;/i&gt;  
-&lt;sub&gt;下標&lt;/sub&gt;  
-&lt;sup&gt;上標&lt;/sup&gt;  
-&lt;code&gt;程式碼&lt;/code&gt;  
-&lt;q&gt;短區塊引用&lt;/q&gt;  
-&lt;blockquote&gt;長區塊引用&lt;/blockquote&gt;  
-&lt;pre&gt;pre會保留你輸入的所有空格和斷行&lt;/pre&gt;
-
+### 文本格式化標籤
+```html
+<b>粗體</b>
+<i>斜體</i>
+<sub>下標</sub>
+<sup>上標</sup>
+<code>程式碼</code>
+<q>短區塊引用</q>
+<blockquote>長區塊引用</blockquote>
+<pre>pre會保留你輸入的所有空格和斷行</pre>
+```
