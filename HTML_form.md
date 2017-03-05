@@ -3,14 +3,14 @@ action 屬性定義在提交表單時執行的動作。
 向服務器提交表單的通常做法是使用提交按鈕。
 通常，表單會被提交到 web 服務器上的網頁。
 在上面的例子中，指定了某個服務器腳本來處理被提交表單：
-``<form action="action_page.php">`
+`<form action="action_page.php">`
 如果省略 action 屬性，則 action 會被設置為當前頁面。
 
 #### Method 屬性
 method 屬性規定在提交表單時所用的 HTTP 方法（GET 或 POST）：
 `<form action="action_page.php" method="GET">`
 或：
-``<form action="action_page.php" method="POST">`
+`<form action="action_page.php" method="POST">`
 
 ##### 何時使用 GET？
 您能夠使用 GET（默認方法）：

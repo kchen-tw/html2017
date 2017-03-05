@@ -39,7 +39,7 @@ User password:<br>
 </form>
 
 #### 單選按鈕輸入
-``<input type="radio">` 定義單選按鈕。
+`<input type="radio">` 定義單選按鈕。
 單選按鈕允許用戶在有限數量的選項中選擇其中之一：
 ```html
 <form>
@@ -139,7 +139,7 @@ week
 <form> Quantity (between 1 and 5): <input type="number" name="quantity" min="1" max="5"> </form>
 
 #### 輸入類型：date
-``<input type="date">` 用於應該包含日期的輸入字段。
+`<input type="date">` 用於應該包含日期的輸入字段。
 根據瀏覽器支持，日期選擇器會出現輸入字段中。
 ```html
 <form>
@@ -150,7 +150,7 @@ week
   <form> Birthday: <input type="date" name="bday"> </form>
 
 #### 輸入類型：color
-``<input type="color">` 用於應該包含顏色的輸入字段。
+`<input type="color">` 用於應該包含顏色的輸入字段。
 根據瀏覽器支持，顏色選擇器會出現輸入字段中。
 ```html
 <form>
@@ -161,7 +161,7 @@ week
 <form> Select your favorite color: <input type="color" name="favcolor"> </form>
 
 ####輸入類型：range
-``<input type="range">` 用於應該包含一定範圍內的值的輸入字段。
+`<input type="range">` 用於應該包含一定範圍內的值的輸入字段。
 根據瀏覽器支持，輸入字段能夠顯示為滑塊控件。
 ```html
 <form>
@@ -193,7 +193,7 @@ week
 <form> Select a week: <input type="week" name="week_year"> </form>
   
 #### 輸入類型：time
-``<input type="time">` 允許用戶選擇時間（無時區）。
+`<input type="time">` 允許用戶選擇時間（無時區）。
 根據瀏覽器支持，時間選擇器會出現輸入字段中。
 ```html
 <form>
