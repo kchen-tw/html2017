@@ -15,4 +15,8 @@
 * [HTML表單](HTML_form.md)
 * [HTML表單元素](HTML_form_element.md)
 * [HTML表單屬性](HTML_form_attribute.md)
+* [HTML5語義](HTML_html5_semantics.md)
+* [HTML畫布](HTML_canvas.md)
+* [HTML SVG](HTML_svg.md)
+* [HTML多媒體](HTML_media.md)
 
