@@ -19,4 +19,6 @@
 * [HTML畫布](HTML_canvas.md)
 * [HTML SVG](HTML_svg.md)
 * [HTML多媒體](HTML_media.md)
+* [HTML API](HTML_api.md)
+* [HTML參考手冊](HTML_manual.md)
 
