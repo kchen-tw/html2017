@@ -27,7 +27,6 @@
 * [Javascript註釋](Javascript/JS_comment.md)
 * [Javascript變數](Javascript/JS_variable.md)
 * [Javascript數據類型](Javascript/JS_datatype.md)
-* [Javascript對象](Javascript/JS_object.md)
 * [Javascript函式](Javascript/JS_function.md)
 * [Javascript運算符](Javascript/JS_operator.md)
 * [Javascript比較](Javascript/JS_compare.md)
@@ -35,4 +34,6 @@
 * [Javascript循環](Javascript/JS_loop.md)
 * [Javascript錯誤](Javascript/JS_error.md)
 * [Javascript表單驗證](Javascript/JS_validate.md)
+* [Javascript DOM](Javascript/JS_DOM.md)
+* [Javascript對象](Javascript/JS_object.md)
 
