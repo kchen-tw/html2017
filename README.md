@@ -10,9 +10,7 @@
  考核老師 | 陳琨 (kchen [at] csie.org)
 課程助教 | 夏維良 (r05922075 [at] ntu.edu.tw) <br> 林修平 (twedusuck [at] gmail.com) <br> 陳宣毅 (r03126005 [at] ntu.edu.tw)
 臉書社團 | https://www.facebook.com/groups/kchen.club
-共學同空間 | 星期二 19:00-21:00 普通505 <br>星期五 19:00-21:00 博雅302
-
-
+共學同空間 | 星期二 19:00-21:00 普通505<br>星期五 19:00-21:00 博雅302
 
 
 ---
@@ -30,7 +28,9 @@ HTML(Hyper Text Markup Language) 是一種標記語言(markup language)，簡
 * 採線上報名
 * 報名網址：[台大CS+X線上報名系統](https://csx.aca.ntu.edu.tw/course)
 * 報名考試成功後等同加簽本課程成立
-* 報名規則以報名系統上的規定為準
+* 享有7日的退選期，退選期限後若未退選，平台廠商才會全部開放權限
+
+
 
 ---
 
@@ -86,12 +86,5 @@ HTML(Hyper Text Markup Language) 是一種標記語言(markup language)，簡
 
 * [W3CSchool HTML5 線上教材](http://www.w3schools.com/html/)
 * [W3CSchool CSS 線上教材](http://www.w3schools.com/css/default.asp)
-* [HiSKIO HTML 線上影片](https://hiskio.com/course/48)
-* [HiSKIO CSS 線上影片](https://hiskio.com/course/40)
+* FB社團的相關直播影片
 
-----
-
-# 關於線上影片
-
-* 加選確定後且無退選者，即可免費觀看所有付費章節
-* 線上影片是由 **有點意思科技** 的網頁前端工程師 **林柏佋** 所提供
