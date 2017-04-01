@@ -1,9 +1,7 @@
 # Summary
 
 * [網頁使用者介面設計](README.md)
-<!--
 * [2017-04-01 第一梯考試題目](exam_questions.md)
--->
 * [HTML](HTMLIntro.md)
     * [HTML文檔型態](HTML_doctype.md)
     * [HTML頭](HTML_head.md)
