@@ -1,7 +1,6 @@
 # Summary
 
 * [網頁使用者介面設計](README.md)
-* [網頁運作原理](webIntro.md)
 * [HTML](HTMLIntro.md)
     * [HTML文檔型態](HTML_doctype.md)
     * [HTML頭](HTML_head.md)
