@@ -554,3 +554,230 @@ font-weight|	设置字体的粗细。
 
 ___
 
+#CSS 链接
+**我们能够以不同的方法为链接设置样式。**
+
+##设置链接的样式
+能够设置链接样式的 CSS 属性有很多种（例如 color, font-family, background 等等）。
+链接的特殊性在于能够根据它们所处的状态来设置它们的样式。
+链接的四种状态：
+
+* a:link - 普通的、未被访问的链接
+* a:visited - 用户已访问的链接
+* a:hover - 鼠标指针位于链接的上方
+* a:active - 链接被点击的时刻
+
+实例
+
+```css
+a:link {color:#FF0000;}		/* 未被访问的链接 */
+a:visited {color:#00FF00;}	/* 已被访问的链接 */
+a:hover {color:#FF00FF;}	/* 鼠标指针移动到链接上 */
+a:active {color:#0000FF;}	/* 正在被点击的链接 */
+```
+
+当为链接的不同状态设置样式时，请按照以下次序规则：
+
+* a:hover 必须位于 a:link 和 a:visited 之后
+* a:active 必须位于 a:hover 之后
+
+##常见的链接样式
+在上面的例子中，链接根据其状态改变颜色。
+让我们看看其他几种常见的设置链接样式的方法：
+
+###文本修饰
+text-decoration 属性大多用于去掉链接中的下划线：
+
+实例
+
+```css
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+```
+
+###背景色
+background-color 属性规定链接的背景色：
+
+实例
+
+```css
+a:link {background-color:#B2FF99;}
+a:visited {background-color:#FFFF85;}
+a:hover {background-color:#FF704D;}
+a:active {background-color:#FF704D;}
+```
+___
+
+#CSS 列表
+**CSS 列表属性允许你放置、改变列表项标志，或者将图像作为列表项标志。**
+##CSS 列表
+从某种意义上讲，不是描述性的文本的任何内容都可以认为是列表。人口普查、太阳系、家谱、参观菜单，甚至你的所有朋友都可以表示为一个列表或者是列表的列表。
+
+由于列表如此多样，这使得列表相当重要，所以说，CSS 中列表样式不太丰富确实是一大憾事。
+
+###列表类型
+要影响列表的样式，最简单（同时支持最充分）的办法就是改变其标志类型。
+
+例如，在一个无序列表中，列表项的标志 (marker) 是出现在各列表项旁边的圆点。在有序列表中，标志可能是字母、数字或另外某种计数体系中的一个符号。
+
+要修改用于列表项的标志类型，可以使用属性 list-style-type：
+
+```css
+ul {list-style-type : square}
+```
+
+上面的声明把无序列表中的列表项标志设置为方块。
+
+###列表项图像
+有时，常规的标志是不够的。你可能想对各标志使用一个图像，这可以利用 list-style-image 属性做到：
+
+```css
+ul li {list-style-image : url(xxx.gif)}
+```
+只需要简单地使用一个 url() 值，就可以使用图像作为标志。
+
+###列表标志位置
+CSS2.1 可以确定标志出现在列表项内容之外还是内容内部。这是利用 list-style-position 完成的。
+
+###简写列表样式
+为简单起见，可以将以上 3 个列表样式属性合并为一个方便的属性：list-style，就像这样：
+
+```css
+li {list-style : url(example.gif) square inside}
+```
+
+list-style 的值可以按任何顺序列出，而且这些值都可以忽略。只要提供了一个值，其它的就会填入其默认值。
+
+##CSS 列表属性(list)
+
+属性|	描述
+:--:|:--:
+list-style|	简写属性。用于把所有用于列表的属性设置于一个声明中。
+list-style-image|	将图象设置为列表项标志。
+list-style-position|	设置列表中列表项标志的位置。
+list-style-type|	设置列表项标志的类型。
+
+___
+
+#CSS 表格
+**CSS 表格属性可以帮助您极大地改善表格的外观。**
+##表格边框
+如需在 CSS 中设置表格边框，请使用 border 属性。
+下面的例子为 table、th 以及 td 设置了蓝色边框：
+
+```css
+table, th, td
+  {
+  border: 1px solid blue;
+  }
+```
+
+请注意，上例中的表格具有双线条边框。这是由于 table、th 以及 td 元素都有独立的边框。
+如果需要把表格显示为单线条边框，请使用 border-collapse 属性。
+
+##折叠边框
+border-collapse 属性设置是否将表格边框折叠为单一边框：
+
+```css
+table
+  {
+  border-collapse:collapse;
+  }
+
+table,th, td
+  {
+  border: 1px solid black;
+  }
+```
+
+##表格宽度和高度
+通过 width 和 height 属性定义表格的宽度和高度。
+下面的例子将表格宽度设置为 100%，同时将 th 元素的高度设置为 50px：
+
+```css
+table
+  {
+  width:100%;
+  }
+
+th
+  {
+  height:50px;
+  }
+```
+
+##表格文本对齐
+text-align 和 vertical-align 属性设置表格中文本的对齐方式。
+text-align 属性设置水平对齐方式，比如左对齐、右对齐或者居中：
+
+```css
+td
+  {
+  text-align:right;
+  }
+```
+
+vertical-align 属性设置垂直对齐方式，比如顶部对齐、底部对齐或居中对齐：
+
+```css
+td
+  {
+  height:50px;
+  vertical-align:bottom;
+  }
+```
+
+##表格内边距
+如需控制表格中内容与边框的距离，请为 td 和 th 元素设置 padding 属性：
+
+```css
+td
+  {
+  padding:15px;
+  }
+```
+
+##表格颜色
+下面的例子设置边框的颜色，以及 th 元素的文本和背景颜色：
+
+```css
+table, td, th
+  {
+  border:1px solid green;
+  }
+
+th
+  {
+  background-color:green;
+  color:white;
+  }
+```
+
+##CSS Table 属性
+属性|	描述
+:--:|:--:
+border-collapse|	设置是否把表格边框合并为单一的边框。
+border-spacing|	设置分隔单元格边框的距离。
+caption-side|	设置表格标题的位置。
+empty-cells|	设置是否显示表格中的空单元格。
+table-layout|	设置显示单元、行和列的算法。
+
+___
+
+#CSS 轮廓
+**轮廓（outline）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。**
+**CSS outline 属性规定元素轮廓的样式、颜色和宽度。**
+
+
+##CSS 边框属性
+"CSS" 列中的数字指示哪个 CSS 版本定义了该属性。
+
+属性|	描述|	CSS
+:--:|:--:|:--:
+outline	|在一个声明中设置所有的轮廓属性。	|2
+outline-color|	设置轮廓的颜色。	|2
+outline-style|	设置轮廓的样式。	|2
+outline-width|	设置轮廓的宽度。	|2
+
