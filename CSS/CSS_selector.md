@@ -517,6 +517,7 @@ img[title~="Figure"] {border: 1px solid gray;}
 很多现代浏览器都支持这些选择器，包括 IE7。
 
 下表是对这些选择器的简单总结：
+
 类型|	描述
 :--:|:--:
 [abc^="def"]|	选择 abc 属性值以 "def" 开头的所有元素
@@ -565,7 +566,7 @@ img[src|="figure"] {border: 1px solid gray;}
 [attribute]|	用于选取带有指定属性的元素。
 [attribute=value]|	用于选取带有指定属性和值的元素。
 [attribute~=value]|	用于选取属性值中包含指定词汇的元素。
-[attribute|=value]|	用于选取带有以指定值开头的属性值的元素，该值必须是整个单词。
+[attribute\|=value]|	用于选取带有以指定值开头的属性值的元素，该值必须是整个单词。
 [attribute^=value]|	匹配属性值以指定值开头的每个元素。
 [attribute$=value]|	匹配属性值以指定值结尾的每个元素。
 [attribute*=value]|	匹配属性值中包含指定值的每个元素。
