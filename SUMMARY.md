@@ -27,4 +27,5 @@
   * [CSS選擇器](CSS/CSS_selector.md)
   * [CSS選擇器2](CSS/CSS_selector2.md)
   * [CSS高階](CSS/CSS_highlevel.md)
-  
+  * [CSS參考手冊](CSS/CSS_manual.md)
+
