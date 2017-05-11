@@ -1,23 +1,23 @@
-##CSS 网络安全字体组合
-###常用的字体组合
-font-family 属性应该使用若干种字体名称作为回退系统，以确保浏览器/操作系统之间的最大兼容性。如果浏览器不支持第一个字体，则会尝试下一个。
+##CSS 網絡安全字體組合
+###常用的字體組合
+font-family 屬性應該使用若干種字體名稱作為回退系統，以確保瀏覽器/操作系統之間的最大兼容性。如果瀏覽器不支持第一個字體，則會嘗試下一個。
 
-请以您喜欢的字体开始，并以通用字体系列结束，以便使浏览器在通用系统中挑选相似的字体，如果没有其他字体可用的话：
+請以您喜歡的字體開始，並以通用字體系列結束，以便使瀏覽器在通用系統中挑選相似的字體，如果沒有其他字體可用的話：
 
-实例
+實例
 
 `p{font-family:'Times New Roman', Times, serif}`
 
-下面是最常用的字体组合，根据通用系统进行汇总：
+下面是最常用的字體組合，根據通用系統進行匯總：
 
-###Serif 字体
+###Serif 字體
 
 ####font-family
 * Georgia, serif
 * 'Palatino Linotype', 'Book Antiqua', Palatino, serif	
 * 'Times New Roman', Times, serif	
 
-###Sans-Serif 字体
+###Sans-Serif 字體
 
 ####font-family	示例文本
 * Arial, Helvetica, sans-serif	
@@ -29,56 +29,56 @@ font-family 属性应该使用若干种字体名称作为回退系统，以确�
 * 'Trebuchet MS', Helvetica, sans-serif	
 * Verdana, Geneva, sans-serif	
 
-###Monospace 字体
+###Monospace 字體
 ####font-family	示例文本
 * 'Courier New', Courier, monospace	
 * 'Lucida Console', Monaco, monospace	
 
 ___
 
-##CSS 单位
+##CSS 單位
 尺寸
 
-单位|	描述
+單位|	描述
 :--:|:--:
 %|	百分比
-in|	英寸
-cm|	厘米
+in|	英吋
+cm|	釐米
 mm|	毫米
-em|	1em 等于当前的字体尺寸。<br>2em 等于当前字体尺寸的两倍。<br>例如，如果某元素以 12pt 显示，那么 2em 是24pt。<br>在 CSS 中，em 是非常有用的单位，因为它可以自动适应用户所使用的字体。
-ex|	一个 ex 是一个字体的 x-height。 (x-height 通常是字体尺寸的一半。)
-pt|	磅 (1 pt 等于 1/72 英寸)
-pc|	12 点活字 (1 pc 等于 12 点)
-px|	像素 (计算机屏幕上的一个点)
+em|	1em 等於當前的字體尺寸。<br>2em 等於當前字體尺寸的兩倍。<br>例如，如果某元素以 12pt 顯示，那麼 2em 是24pt。<br>在 CSS 中，em 是非常有用的單位，因為它可以自動適應用戶所使用的字體。
+ex|	一個 ex 是一個字體的 x-height。 (x-height 通常是字體尺寸的一半。)
+pt|	磅 (1 pt 等於 1/72 英吋)
+pc|	12 點活字 (1 pc 等於 12 點)
+px|	像素 (計算機屏幕上的一個點)
 
-颜色
+顏色
 
-单位|	描述
+單位|	描述
 :--:|:--:
-(颜色名)	|颜色名称 (比如 red)
+(顏色名)	|顏色名稱 (比如 red)
 rgb(x,x,x)|	RGB 值 (比如 rgb(255,0,0))
 rgb(x%, x%, x%)	|RGB 百分比值 (比如 rgb(100%,0%,0%))
-#rrggbb	|十六进制数 (比如 #ff0000)
+#rrggbb	|十六進制數 (比如 #ff0000)
 
 ___
 
-##CSS 合法颜色值
+##CSS 合法顏色值
 
-###CSS 颜色
-可以用以下方法来规定 CSS 中的颜色：
-* 十六进制色
-* RGB 颜色
-* RGBA 颜色
-* HSL 颜色
-* HSLA 颜色
-* 预定义/跨浏览器颜色名
+###CSS 顏色
+可以用以下方法來規定 CSS 中的顏色：
+* 十六進制色
+* RGB 顏色
+* RGBA 顏色
+* HSL 顏色
+* HSLA 顏色
+* 預定義/跨瀏覽器顏色名
 
-###十六进制颜色
-所有浏览器都支持十六进制颜色值。
-十六进制颜色是这样规定的：#RRGGBB，其中的 RR（红色）、GG（绿色）、BB（蓝色）十六进制整数规定了颜色的成分。所有值必须介于 0 与 FF 之间。
-举例说，#0000ff 值显示为蓝色，这是因为蓝色成分被设置为最高值（ff），而其他成分被设置为 0。
+###十六進制顏色
+所有瀏覽器都支持十六進制顏色值。
+十六進制顏色是這樣規定的：#RRGGBB，其中的 RR（紅色）、GG（綠色）、BB（藍色）十六進制整數規定了顏色的成分。所有值必須介於 0 與 FF 之間。
+舉例說，#0000ff 值顯示為藍色，這是因為藍色成分被設置為最高值（ff），而其他成分被設置為 0。
 
-实例
+實例
 ```css
 p
 {
@@ -86,13 +86,13 @@ background-color:#0000ff;
 }
 ```
 
-###RGB 颜色
-所有浏览器都支持 RGB 颜色值。
-RGB 颜色值是这样规定的：rgb(red, green, blue)。每个参数 (red、green 以及 blue) 定义颜色的强度，可以是介于 0 与 255 之间的整数，或者是百分比值（从 0% 到 100%）。
-举例说，rgb(0,0,255) 值显示为蓝色，这是因为 blue 参数被设置为最高值（255），而其他被设置为 0。
-同样地，下面的值定义了相同的颜色：rgb(0,0,255) 和 rgb(0%,0%,100%)。
+###RGB 顏色
+所有瀏覽器都支持 RGB 顏色值。
+RGB 顏色值是這樣規定的：rgb(red, green, blue)。每個參數 (red、green 以及 blue) 定義顏色的強度，可以是介於 0 與 255 之間的整數，或者是百分比值（從 0% 到 100%）。
+舉例說，rgb(0,0,255) 值顯示為藍色，這是因為 blue 參數被設置為最高值（255），而其他被設置為 0。
+同樣地，下面的值定義了相同的顏色：rgb(0,0,255) 和 rgb(0%,0%,100%)。
 
-实例
+實例
 
 ```css
 p
@@ -101,12 +101,12 @@ background-color:rgb(255,0,0);
 }
 ```
 
-###RGBA 颜色
-RGBA 颜色值得到以下浏览器的支持：IE9+、Firefox 3+、Chrome、Safari 以及 Opera 10+。
-RGBA 颜色值是 RGB 颜色值的扩展，带有一个 alpha 通道 - 它规定了对象的不透明度。
-RGBA 颜色值是这样规定的：rgba(red, green, blue, alpha)。alpha 参数是介于 0.0（完全透明）与 1.0（完全不透明）的数字。
+###RGBA 顏色
+RGBA 顏色值得到以下瀏覽器的支持：IE9+、Firefox 3+、Chrome、Safari 以及 Opera 10+。
+RGBA 顏色值是 RGB 顏色值的擴展，帶有一個 alpha 通道 - 它規定了對象的不透明度。
+RGBA 顏色值是這樣規定的：rgba(red, green, blue, alpha)。alpha 參數是介於 0.0（完全透明）與 1.0（完全不透明）的數字。
 
-实例
+實例
 
 ```css
 p
@@ -115,13 +115,13 @@ background-color:rgba(255,0,0,0.5);
 }
 ```
 
-###HSL 颜色
-HSL 颜色值得到以下浏览器的支持：IE9+、Firefox、Chrome、Safari 以及 Opera 10+。
-HSL 指的是 hue（色调）、saturation（饱和度）、lightness（亮度） - 表示颜色柱面坐标表示法。
-HSL 颜色值是这样规定的：hsl(hue, saturation, lightness)。
-Hue 是色盘上的度数（从 0 到 360） - 0 (或 360) 是红色，120 是绿色，240 是蓝色。Saturation 是百分比值；0% 意味着灰色，而 100% 是全彩。Lightness 同样是百分比值；0% 是黑色，100% 是白色。
+###HSL 顏色
+HSL 顏色值得到以下瀏覽器的支持：IE9+、Firefox、Chrome、Safari 以及 Opera 10+。
+HSL 指的是 hue（色調）、saturation（飽和度）、lightness（亮度） - 表示顏色柱面坐標表示法。
+HSL 顏色值是這樣規定的：hsl(hue, saturation, lightness)。
+Hue 是色盤上的度數（從 0 到 360） - 0 (或 360) 是紅色，120 是綠色，240 是藍色。Saturation 是百分比值；0% 意味著灰色，而 100% 是全彩。Lightness 同樣是百分比值；0% 是黑色，100% 是白色。
 
-实例
+實例
 
 ```css
 p
@@ -130,12 +130,12 @@ background-color:hsl(120,65%,75%);
 }
 ```
 
-###HSLA 颜色
-HSLA 颜色值得到以下浏览器的支持：IE9+、Firefox 3+、Chrome、Safari 以及 Opera 10+。
-HSLA 颜色值是 HSL 颜色值的扩展，带有一个 alpha 通道 - 它规定了对象的不透明度。
-HSLA 颜色值是这样规定的：hsla(hue, saturation, lightness, alpha)，其中的 alpha 参数定义不透明度。alpha 参数是介于 0.0（完全透明）与 1.0（完全不透明）的数字。
+###HSLA 顏色
+HSLA 顏色值得到以下瀏覽器的支持：IE9+、Firefox 3+、Chrome、Safari 以及 Opera 10+。
+HSLA 顏色值是 HSL 顏色值的擴展，帶有一個 alpha 通道 - 它規定了對象的不透明度。
+HSLA 顏色值是這樣規定的：hsla(hue, saturation, lightness, alpha)，其中的 alpha 參數定義不透明度。alpha 參數是介於 0.0（完全透明）與 1.0（完全不透明）的數字。
 
-实例
+實例
 
 ```css
 p
@@ -146,9 +146,9 @@ background-color:hsla(120,65%,75%,0.3);
 
 ___
 
-##CSS 颜色十六进制值
+##CSS 顏色十六進制值
 
-颜色名|	十六进制颜色值
+顏色名|	十六進制顏色值
 :--:|:--:
 Black	|#000000	 
 Navy	|#000080	 
